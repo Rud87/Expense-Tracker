@@ -1,0 +1,151 @@
+body {
+  background-color: #29636d48;
+}
+
+.expense-form {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 10px; 
+  margin: 60px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+}
+
+.expense-form label {
+  font-weight: bold;
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 5px; 
+  margin-top: 3px; 
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.expense-form input[type="text"] {
+  width: 70%; 
+}
+
+.expense-form input[type="number"] {
+  width: 30%; 
+}
+
+.expense-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 7px 15px; 
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.expense-form button:hover {
+  background-color: #0056b3;
+}
+
+.monthly-summary {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.monthly-summary h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.monthly-summary p {
+  font-size: 1.2rem;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  margin: 10px 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 510px;
+  border-radius: 8px;
+}
+
+.expense-item:last-child {
+  margin-bottom: 0;
+}
+
+.expense-actions button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.expense-actions button.edit {
+  background-color: #17a2b8;
+}
+
+.expense-actions button:hover {
+  background-color: #9c2d3a;
+}
+
+.h2{
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+.select-wrapper {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.select {
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.select {
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin: 50px 20px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
